@@ -18,7 +18,7 @@ with col2:
     label_visibility="collapsed" )
 
 
-    if st.button("🚀 Run") and user_question:
+    if st.button("🚀 Run") or user_question:
         st.subheader("Agent Workflow Outputs")
 
         with st.spinner("Processing through agents..."):
